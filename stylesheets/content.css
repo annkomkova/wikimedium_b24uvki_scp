@@ -122,6 +122,8 @@ article blockquote {
   font-style: italic;
   position: relative;
 }
+article blockquote::before {
+  content: '';
   width: 3px;
   height: 100%;
   background-color: black;
