@@ -10,3 +10,12 @@ nav.menubar {
 nav.menubar img {
   width: 300px;
 }
+nav.menubar a {
+  color: gray;
+  text-decoration: none;
+}
+nav.menubar a:hover {
+  color: black;
+  text-decoration: underline;
+  transition: all 0.4s ease;
+}

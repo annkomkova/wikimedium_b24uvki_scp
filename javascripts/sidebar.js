@@ -1,5 +1,5 @@
 $(function () {
-  $('nav a').each(function () {
+  $('.sidebar a').each(function () {
     $(this).on('click', function (e) {
       e.preventDefault()
       var scrollTo = $(this).attr('href')

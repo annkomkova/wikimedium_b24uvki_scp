@@ -1,6 +1,8 @@
 nav.sidebar {
   width: 280px;
   position: fixed;
+  top: 50px;
+  left: 0;
   /* background-color: brown; */
   left: 20px;
   font-size: 15px;
